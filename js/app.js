@@ -8,16 +8,16 @@ const imagesArray = Array.from(images);
 // console.log(typeof imagesArray);
 // console.log(imagesArray);
 
-//luego todos mis eventos
-window.addEventListener("load", function() {
+//Eventos
+window.addEventListener("load", () =>{
   replaceImg(imagesArray);
 });
 
-function replaceImg(imagesArray){
+const replaceImg = imagesArray =>{
   //Vaciar section
   sectionContainer.innerHTML = " ";
   //Iterar en array y pintar en html
-  imagesArray.forEach(function(img){
+  imagesArray.forEach(img => {
     //Crear
     let imageFigure = document.createElement("figure");
     let imageImg = document.createElement("img");
