@@ -35,6 +35,16 @@ const replaceImg = imagesArray =>{
 
     // console.log(img.src);
     // console.log(img.alt);
+
+
+    //template string
+    /*let picture = 
+    `<figure>
+    <img class="images" src=${img.src}></img>
+    <figcaption>${img.alt}</figcaption>
+    </figure>`;
+    sectionContainer.innerHTML = picture;
+    */
   });
 }
 
